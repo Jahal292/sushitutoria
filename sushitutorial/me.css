@@ -1,0 +1,127 @@
+*{
+margin:0;
+padding:0;
+}
+
+body{
+background-color:skyblue;
+}
+
+header{
+    width: 100%;
+    background-color:brown;
+     text-align: center;
+     padding: 20px;
+        
+        
+    }
+    .header{
+         background-color: brown;
+         border: 3px solid white;
+         border-radius: 50px;
+         display:inline-block;
+         color: white;
+         padding: 10px;
+         font-size: 40px;
+         font-style: italic;
+    }
+   
+    
+        .aboutme{
+            max-width: 1200px;
+            margin: auto;
+            background-color: #484848;
+            overflow:auto;
+        }
+
+        .intro{
+            margin: 5px;
+            border: 1px solid gray;
+            background-color:gray;
+            width:auto;    
+            color: #fff;          
+
+        }
+
+        .intro , img{
+            width:100%;
+            height:auto;
+        }
+        
+        .desc{
+            background-color: #484848;
+            color: whitesmoke;
+            font-size:15px;
+            padding:10px;
+            text-align:justify;
+            font-style: italic;
+            font-family: serif;
+        }
+        
+        footer{
+            width: 100%;
+            padding: 20px;
+            background-color: goldenrod;
+        }
+        
+        p{
+            font-size:20px;
+            text-align: center;
+            color:white;
+            font-family: Arial, Helvetica, sans-serif;
+            letter-spacing: 1px;
+        }
+        
+    
+        
+@media(max-width:420px){
+    .header{
+        font-size:20px;
+        padding: 5px;
+    }
+
+    .aboutme{
+        width: auto;
+
+    }
+
+    .intro {
+        width: auto;
+
+    }
+.img{
+    width:100%;
+}
+
+.desc{
+
+    font-size: 10px;
+}
+
+footer p{
+    width: 100%;
+    font-size: 12px;
+}
+
+}
+
+@media(max-witdh:600px){
+    .header{
+        font-size: 25px;
+        padding: 6px;
+    }
+    .aboutme{
+        width: auto;
+    }
+
+}.intro{
+    width: auto;
+
+}
+.desc{
+    font-size: 15px;
+}
+
+footer p{
+    font-size: 15px;
+}
